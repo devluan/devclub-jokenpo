@@ -10,6 +10,7 @@ body{
     background: url(https://source.unsplash.com/1600x900/?landscape);
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -78,4 +79,12 @@ p{
     color: rgb(255, 0, 0);
     font-size: 40px;
     font-weight: 700;
+}
+
+footer{
+    margin-bottom: 0;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
 }
